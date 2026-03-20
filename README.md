@@ -1,9 +1,9 @@
-🏦 Credit Risk Analysis Project — Professional Explanation
-📌 Problem Statement
+**🏦 Credit Risk Analysis Project — Professional Explanation
+📌 Problem Statement**
 
 The objective of this project is to predict whether a customer is likely to default on a loan using financial and behavioral data. This helps financial institutions minimize risk, reduce losses, and improve lending decisions.
 
-⚙️ Phase 1: Data Engineering
+**⚙️ Phase 1: Data Engineering**
 
 In this phase, the raw dataset was prepared for analysis and modeling.
 
@@ -17,7 +17,7 @@ Stored the processed dataset in a MySQL database for structured access and scala
 
 👉 This ensured the data was clean, reliable, and ready for downstream tasks
 
-📊 Phase 2: Dashboard & Analysis
+**📊 Phase 2: Dashboard & Analysis**
 
 An interactive dashboard was built using Power BI to explore patterns and identify risk factors.
 
@@ -43,7 +43,7 @@ Certain loan purposes and grades have higher default probabilities
 
 👉 The dashboard enables stakeholders to visually identify high-risk customers and make informed decisions
 
-🤖 Phase 3: Machine Learning
+**🤖 Phase 3: Machine Learning**
 
 Machine learning models were developed to predict loan defaults.
 
@@ -81,7 +81,7 @@ Customers with poor credit history are more likely to default
 
 👉 These insights can help institutions design better credit policies
 
-🚀 Phase 4: AutoResearch (Innovation)
+**🚀 Phase 4: AutoResearch (Innovation)**
 
 The ML workflow in this project was implemented manually. However, it can be enhanced using automated research frameworks.
 
@@ -97,7 +97,7 @@ Better scalability for large datasets
 
 👉 Automation would make the system more efficient, scalable, and performance-optimized
 
-🛠 Tools & Technologies
+**🛠 Tools & Technologies**
 
 Python (Pandas, Scikit-learn) → Data processing & modeling
 
@@ -105,6 +105,6 @@ MySQL → Data storage
 
 Power BI → Visualization & dashboarding
 
-🎯 Final Summary (Strong Closing Line)
+**🎯 Final Summary**
 
 This project demonstrates an end-to-end pipeline for credit risk analysis, combining data engineering, visualization, and machine learning to identify and predict high-risk customers, with potential for further optimization using automated ML workflows.
