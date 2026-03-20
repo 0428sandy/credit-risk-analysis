@@ -35,3 +35,18 @@ loan_percent_income	Loan burden
 loan_status	Target (0 = safe, 1 = default)
 cb_person_default_on_file	Past default history
 cb_person_cred_hist_length	Credit history length
+
+
+#Default Rate by Loan Grade
+SELECT 
+    loan_grade,
+    AVG(loan_status) AS default_rate
+FROM credit_risk_data
+GROUP BY loan_grade
+ORDER BY default_rate DESC;
+
+#High Risk Customers
+SELECT *
+FROM credit_risk_data
+WHERE loan_percent_income > 0.4
+AND loan_status = 1;
