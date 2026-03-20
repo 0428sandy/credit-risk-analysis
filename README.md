@@ -1,5 +1,6 @@
-**🏦 Credit Risk Analysis Project — Professional Explanation
-📌 Problem Statement**
+**🏦 Credit Risk Analysis Project**
+
+**📌 Problem Statement**
 
 The objective of this project is to predict whether a customer is likely to default on a loan using financial and behavioral data. This helps financial institutions minimize risk, reduce losses, and improve lending decisions.
 
